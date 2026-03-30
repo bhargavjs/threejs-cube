@@ -51,6 +51,9 @@ function animate() {
   cube.rotation.x += 0.01
   cube.rotation.y += 0.01
 
+  // controls
+  controls.update()
+
   renderer.render(scene, camera)
 }
 animate()
