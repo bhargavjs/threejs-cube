@@ -21,3 +21,7 @@ This is a basic 3D cube project built using Three.js.
 - Add mouse controls (OrbitControls)
 - Add interaction (click events)
 - Add multiple objects
+
+
+## 🚀 Live Demo
+https://bhargavjs.github.io/threejs-cube/
