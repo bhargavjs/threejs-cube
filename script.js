@@ -16,6 +16,10 @@ const renderer = new THREE.WebGLRenderer({ antialias: true })
 renderer.setSize(window.innerWidth, window.innerHeight)
 document.body.appendChild(renderer.domElement)
 
+//controls
+const controls = new THREE.OrbitControls(camera, renderer.domElement)
+controls.enableDamping = true
+
 // Geometry (Cube)
 const geometry = new THREE.BoxGeometry()
 
